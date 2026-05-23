@@ -1,3 +1,33 @@
+<h2 style="color: #f3f4f6; font-family: 'Segoe UI', -apple-system, sans-serif; border-bottom: 2px solid #2e2e38; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; font-size: 22px;">🎮 Cómo Ejecutar el Juego</h2>
+
+<div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px;">
+    <div style="display: flex; align-items: flex-start; gap: 15px; background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 10px; padding: 15px;">
+        <div style="background-color: #0284c7; color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; flex-shrink: 0;">1</div>
+        <div style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5;">
+            <strong style="color: #f3f4f6; display: block; margin-bottom: 3px;">Abre la carpeta del proyecto</strong>
+            Navega hasta la ubicación de la carpeta del proyecto
+        </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 15px; background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 10px; padding: 15px;">
+        <div style="background-color: #0284c7; color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; flex-shrink: 0;">2</div>
+        <div style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5;">
+            <strong style="color: #f3f4f6; display: block; margin-bottom: 3px;">Haz doble clic en el lanzador</strong>
+            Ubica el archivo <b><code>jugar.bat</code></b> en la carpeta y haz doble clic sobre él.
+        </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; gap: 15px; background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 10px; padding: 15px;">
+        <div style="background-color: #0284c7; color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; flex-shrink: 0;">3</div>
+        <div style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5;">
+            <strong style="color: #f3f4f6; display: block; margin-bottom: 3px;">¡A jugar!</strong>
+            La consola virtual iniciará automáticamente el entorno local cargando la ventana gráfica nativa de inmediato. ¡Que empiece el desafío geográfico!
+        </div>
+    </div>
+</div>
+
+<div style="text-align: center; padding: 20px 0; border-top: 1px solid #2e2e38; color: #9ca3af; font-family: sans-serif; font-size: 12px;">
+    Adivina la Bandera • Desarrollado en Python con Tkinter y Pillow.
+</div>
+
 <div style="background: linear-gradient(135deg, #1e1e24 0%, #121214 100%); border: 1px solid #2e2e38; border-radius: 16px; padding: 40px 20px; text-align: center; margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
     <h1 style="color: #f3f4f6; font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 36px; font-weight: 800; margin: 0 0 10px 0; letter-spacing: 1.5px; text-transform: uppercase;">🌍 ADIVINA LA BANDERA</h1>
     <p style="color: #9ca3af; font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 16px; font-style: italic; margin: 0 0 20px 0; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5;">El desafío geográfico definitivo de escritorio con gráficos de alta fidelidad, un temporizador adaptativo y 180 banderas de todo el mundo.</p>
@@ -34,56 +64,10 @@
 
 <div style="background-color: #121214; border: 1px solid #2e2e38; border-radius: 12px; padding: 25px; margin-bottom: 30px;">
     <p style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; margin: 0 0 15px 0; line-height: 1.6;">La dificultad de la cuenta regresiva es adaptativa y se recalcula al inicio de cada pregunta en base a tu rendimiento mediante la siguiente fórmula:</p>
-    <div style="background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 8px; padding: 15px; text-align: center; margin-bottom: 15px;">
-        <code style="color: #e5e7eb; font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold;">Tiempo = máx(5, 30 - Racha - parte_entera((Pregunta - 1) / 2))</code>
-    </div>
     <ul style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; margin: 0; padding-left: 20px; line-height: 1.8;">
         <li><b>30 Segundos Base</b>: Tiempo estándar inicial.</li>
         <li><b>Penalización por Racha</b>: Resta 1 segundo por cada acierto consecutivo en tu racha activa. Si la racha se corta, esta penalización desaparece al instante.</li>
         <li><b>Penalización por Progreso</b>: Resta permanentemente 1 segundo por cada 2 preguntas contestadas en la sesión.</li>
         <li><b>Suelo de Seguridad</b>: Garantiza un mínimo absoluto de <b>5 segundos</b> para que las banderas sigan siendo jugables en niveles extremos.</li>
     </ul>
-</div>
-
-<h2 style="color: #f3f4f6; font-family: 'Segoe UI', -apple-system, sans-serif; border-bottom: 2px solid #2e2e38; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; font-size: 22px;">🏗️ Estructura del Proyecto</h2>
-
-<div style="background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 12px; padding: 20px; margin-bottom: 30px;">
-    <pre style="color: #e5e7eb; font-family: 'Courier New', Courier, monospace; font-size: 13px; margin: 0; line-height: 1.5;">
-c:\Users\Javier\Desktop\Code/
-├── game.py          # Motor principal y GUI de Tkinter de alta fidelidad (170 líneas)
-├── flag_data.py     # Base de datos simplificada de 180 banderas del mundo
-├── jugar.bat        # Lanzador directo de escritorio para Windows
-├── cache_banderas/  # Carpeta de almacenamiento local offline para PNGs descargados
-└── records.json     # Puntuaciones locales del Top 10 persistidas
-    </pre>
-</div>
-
-<h2 style="color: #f3f4f6; font-family: 'Segoe UI', -apple-system, sans-serif; border-bottom: 2px solid #2e2e38; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; font-size: 22px;">🎮 Cómo Ejecutar el Juego</h2>
-
-<div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px;">
-    <div style="display: flex; align-items: flex-start; gap: 15px; background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 10px; padding: 15px;">
-        <div style="background-color: #0284c7; color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; flex-shrink: 0;">1</div>
-        <div style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5;">
-            <strong style="color: #f3f4f6; display: block; margin-bottom: 3px;">Abre la carpeta del proyecto</strong>
-            Navega hasta la ubicación de los archivos en tu explorador de archivos de Windows: <code>c:\Users\Javier\Desktop\Code</code>
-        </div>
-    </div>
-    <div style="display: flex; align-items: flex-start; gap: 15px; background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 10px; padding: 15px;">
-        <div style="background-color: #0284c7; color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; flex-shrink: 0;">2</div>
-        <div style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5;">
-            <strong style="color: #f3f4f6; display: block; margin-bottom: 3px;">Haz doble clic en el lanzador</strong>
-            Ubica el archivo <b><code>jugar.bat</code></b> en la carpeta y haz doble clic sobre él.
-        </div>
-    </div>
-    <div style="display: flex; align-items: flex-start; gap: 15px; background-color: #1e1e24; border: 1px solid #2e2e38; border-radius: 10px; padding: 15px;">
-        <div style="background-color: #0284c7; color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; flex-shrink: 0;">3</div>
-        <div style="color: #d1d5db; font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5;">
-            <strong style="color: #f3f4f6; display: block; margin-bottom: 3px;">¡A jugar!</strong>
-            La consola virtual iniciará automáticamente el entorno local cargando la ventana gráfica nativa de inmediato. ¡Que empiece el desafío geográfico!
-        </div>
-    </div>
-</div>
-
-<div style="text-align: center; padding: 20px 0; border-top: 1px solid #2e2e38; color: #9ca3af; font-family: sans-serif; font-size: 12px;">
-    Adivina la Bandera • Desarrollado en Python con Tkinter y Pillow.
 </div>
