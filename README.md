@@ -2,6 +2,18 @@
   <img width="350" height="342" alt="descarga" src="https://github.com/user-attachments/assets/3e664a5a-05fb-488f-8e0d-06329115553c" />
 </p>
 
+<div style="background-color: #1e1e24; border-left: 5px solid #d97706; border-radius: 6px; padding: 20px; margin-top: 20px; margin-bottom: 25px; font-family: 'Segoe UI', -apple-system, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-top: 1px solid #2e2e38; border-right: 1px solid #2e2e38; border-bottom: 1px solid #2e2e38;">
+    <h3 style="color: #f3f4f6; margin: 0 0 10px 0; font-size: 16px; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+        💡 Nota Importante para el Jugador
+    </h3>
+    <p style="color: #d1d5db; font-size: 13.5px; margin: 0; line-height: 1.6;">
+        Al ejecutar <b><code>jugar.bat</code></b> por primera vez, se abrirá una ventana de terminal para <b>configurar automáticamente un entorno virtual seguro e aislado de Python</b> e instalar los paquetes gráficos necesarios (como Pillow para las banderas en HD).
+    </p>
+    <p style="color: #d1d5db; font-size: 13.5px; margin: 8px 0 0 0; line-height: 1.6;">
+        Este es un proceso 100% automático, seguro y estándar. No hay nada de qué preocuparse. Si en el futuro deseas desinstalar el juego y eliminar el entorno por completo, <b>solo debes borrar la carpeta del proyecto</b>. ¡Todo quedará completamente limpio sin dejar rastros ni alterar tu computadora!
+    </p>
+</div>
+
 <h2 style="color: #f3f4f6; font-family: 'Segoe UI', -apple-system, sans-serif; border-bottom: 2px solid #2e2e38; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; font-size: 22px;">🎮 Cómo Ejecutar el Juego</h2>
 
 <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px;">
