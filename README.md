@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="350" height="342" alt="descarga" src="https://github.com/user-attachments/assets/3e664a5a-05fb-488f-8e0d-06329115553c" />
+</p>
+
 <h2 style="color: #f3f4f6; font-family: 'Segoe UI', -apple-system, sans-serif; border-bottom: 2px solid #2e2e38; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; font-size: 22px;">🎮 Cómo Ejecutar el Juego</h2>
 
 <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px;">
